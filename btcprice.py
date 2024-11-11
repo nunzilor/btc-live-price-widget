@@ -7,7 +7,7 @@ class BitcoinPriceApp(QWidget):
     def __init__(self):
         super().__init__()
         self.last_price = None  # Per tenere traccia del prezzo precedente
-        self.bitcoin_balance = 0.11319928  # Quantità di Bitcoin posseduti
+        self.bitcoin_balance = 1.11319928  # Quantità di Bitcoin posseduti
         self.initUI()
         self.update_price()  # Aggiorna subito il prezzo all'avvio
         self.start_timer()
