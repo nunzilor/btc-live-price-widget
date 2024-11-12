@@ -13,7 +13,7 @@ class BitcoinPriceApp(QWidget):
         self.start_timer()
 
     def initUI(self):
-        self.setWindowTitle('Prezzo Bitcoin e Valore Totale')
+        self.setWindowTitle('Bitcoin Price e Total Value')
         self.setGeometry(100, 100, 400, 150)
         self.layout = QVBoxLayout()
         
